@@ -29,7 +29,7 @@ const ParticleBackground = () => {
 
           generateTextPositions("");
 
-          let totalParticles = 6000;
+          let totalParticles = 10000;
           for (let i = 0; i < totalParticles; i++) {
             let particle = new Particle(p.random(p.width), p.random(p.height));
             if (i < textPositions.length) {
