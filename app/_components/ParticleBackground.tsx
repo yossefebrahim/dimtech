@@ -149,8 +149,8 @@ const ParticleBackground = () => {
 
           show() {
             p.noStroke();
-            // p.fill(162, 196, 235);
-            p.fill(255, 255, 255);
+            p.fill(162, 196, 235);
+            // p.fill(255, 255, 255);
 
 
 
