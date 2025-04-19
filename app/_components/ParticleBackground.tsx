@@ -149,9 +149,13 @@ const ParticleBackground = () => {
 
           show() {
             p.noStroke();
-            p.fill(162, 196, 235);
+            // p.fill(162, 196, 235);
+            p.fill(255, 255, 255);
+
+
+
             p.rectMode(p.CENTER);
-            p.rect(this.pos.x, this.pos.y, 3, 3);
+            p.rect(this.pos.x, this.pos.y, 1.5, 1.5);
           }
         }
 
