@@ -38,6 +38,7 @@ const Executive = () => {
       description:
         "Drives R&D programs from discovery and prototyping through development, integration, and post-launch monitoring, with a focus on quantitative and digitalization solutions in the finance industry.",
     },
+
     {
       name: "Ramzi Shalak",
       role: "CGDO",
@@ -112,10 +113,10 @@ const Executive = () => {
 
                 {/* Card Tag */}
                 <div className="tag">
-                  <h6 className="text-size16 font-bold text-white">
+                  <h6 className="text-size14 font-bold text-white">
                     {team?.name}
                   </h6>
-                  <p className="text-size16 text-[#C8C8C8] font-normal">
+                  <p className="text-size14 text-[#C8C8C8] font-normal">
                     {team?.role}
                   </p>
                 </div>
