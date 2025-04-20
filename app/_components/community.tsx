@@ -103,21 +103,12 @@ const Community = () => {
                     <CardBody className="text-white opacity-[.75] p-8">
                       {tab === "Academic" && (
                         <p className="text-size18 font-normal">
-                          Since 2018, our partnership with Tsinghua University,
-                          University of Montpellier, École des Mines d'Alès, and
-                          ESLIV has united researchers from diverse fields
-                          through PhD students and CIFRE contracts. This
-                          collaboration fosters a cross-disciplinary research.
+                          Since 2018, our partnership with Tsinghua University, University of Montpellier, École des Mines d'Alès, and ESLIV has united researchers from diverse fields through PhD students and CIFRE contracts. This collaboration fosters cross-disciplinary research.
                         </p>
                       )}
                       {tab === "Government" && (
                         <p className="text-size18 font-normal">
-                          Since 2016, Dimtech has been recognized as a "Jeune
-                          Entreprise Innovante" (Innovative Company).
-                          Additionally, through partnerships with the ANRT,
-                          Dimtech collaborates with several research
-                          institutions, benefiting from European funding and
-                          French state research grants.
+                          Since 2016, Dimtech has been recognized as a "Jeune Entreprise Innovante" (Innovative Company). Additionally, through partnerships with the ANRT, Dimtech collaborates with several research institutions, benefiting from European funding and French state research grants.
                         </p>
                       )}
                     </CardBody>
