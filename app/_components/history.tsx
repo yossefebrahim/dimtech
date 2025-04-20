@@ -225,10 +225,10 @@ const History = () => {
       <div className="relative w-full px-4 mt-16 md:mt-32">
         {/* line */}
         <div className="relative h-[2px] rounded-full overflow-hidden mb-4">
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-200 to-purple-700" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#F780AC] to-[#F780AC]" />
           <div className="absolute inset-0 bg-white z-10" />
           <div
-            className="absolute h-full bg-gradient-to-r from-purple-300 to-purple-600 z-20 transition-all duration-500"
+            className="absolute h-full bg-gradient-to-r from-[#F780AC] to-[#F780AC] z-20 transition-all duration-500"
             style={{ width: `${percent}%` }}
           />
         </div>
